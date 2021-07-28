@@ -1,0 +1,51 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+}
+/*Initially the first-section's display will be none. Because we don't show this for the first time,
+even not when the Click Me button is clicked.*/
+.first-section {
+    display: none;
+    text-align: center;
+    background-color: green;
+    color: black;
+    padding: 20px 25px;
+    margin: 5px 25%;
+}
+.second-section {
+    text-align: center;
+    background-color: blue;
+    color: black;
+    padding: 20px 25px;
+    margin: 5px 25%;
+    display: block;
+}
+button {
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+}
+.custom-btn {
+    background-color: aqua;
+    color: black;
+    border: 3px solid #92ffff;
+    border-radius: 10px;
+    box-shadow: 3px 5px 12px #4bfcfc;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 15px;
+    display: block;
+    margin: 0 auto;
+}
+.ok-btn {
+    background-color: rgb(255, 145, 0);
+    color: black;
+    border: 3px solid rgb(255, 211, 155);
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 20px;
+    box-shadow: 3px 5px 12px rgb(252, 181, 88);
+}
